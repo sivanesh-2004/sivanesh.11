@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+        .cd{
+
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: auto;
+        }
+    </style>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body style="background-color: azure;">
+    <h1 style="color:grey;">Personal informations</h1>
+   <table>
+    <thead>
+        <tr>
+            <th><Details></Details></th>
+            <th>RequiredInfo</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>:SIVANESH</td>
+        </tr>
+        <tr>
+            <td>Native</td>
+            <td>:KALLAKURICHI</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>:MALE</td>
+        </tr>
+    </tbody>
+   </table>
+   <hr>
+   <form action="mailto:sivaneshs9002@gmail.com" method="post">
+    <h2 style="color: darkgrey;">Application form</h2>
+    <table class="tab" cellpadding="10">
+       <tr>
+        <td>Name:</td>
+     <td><input type="text" name="FirstName"></td>
+       </tr>
+       <tr>
+        <td>DOB:</td>
+        <td><input type="date" name="Your date of birth"></td>
+       </tr>
+       <br>
+    <tr>
+        <td>Gender:</td>
+        <td> <input type="radio" name="type" value="Male">Male  <input type="radio" name="type"value="Female">Female</td>
+    </tr>
+    <tr>
+        <td>Mobile no:</td>
+        <td><input type="number" name="PhoneNumber" maxlength="10"></td>
+    </tr>
+    <tr><td>Department:</td>
+    <td><input type="radio" name="dept" value="CSE">CSE  <input type="radio" name="dept" value="MECH">MECH <input type="radio" name="dept" value="IT">IT</td>
+     </tr>
+     <tr>
+        <td>Address:</td>
+        <td><textarea rows="2" cols="5" name="Address"></textarea></td>
+     </tr>
+     <tr>
+        <td>Skills:</td>
+        <td><input type="checkbox" name="skills" value="C">C <input type="checkbox" name="skills" value="c++">c++ <input type="checkbox" name="skills" value="java">java</td>
+     </tr>
+     <tr>
+        <td style="padding-left: 35%;"><input type="button" value="submit"></td>
+     </tr>
+     
+    </table>
+   </form>
+</body>
+</html>
